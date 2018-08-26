@@ -14,6 +14,7 @@ import com.zzu.springcloud.entities.Dept;
 public class DeptController_Consumer {
 
 	//public static final String REST_URL_PREFIX = "http://localhost:8001";
+	//通过微服务名字在eureka上找到并访问
 	public static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";//微服名
 
 	@Autowired
