@@ -1,0 +1,12 @@
+server:
+  port: 80
+spring:
+  application:
+    name: microservicecloud-consumer
+eureka:
+  #instance:
+    #hostname: localhost
+  client: 
+    register-with-eureka: false  #false表示不向注册中心注册自己。
+    service-url: #,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
