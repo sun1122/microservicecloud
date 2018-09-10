@@ -2,12 +2,13 @@ package com.zzu.springcloud.entities;
 
 import java.io.Serializable;
 
+import lombok.Data;
 import lombok.experimental.Accessors;
 
 @SuppressWarnings("serial")
 //@AllArgsConstructor
 //@NoArgsConstructor
-//@Data
+@Data
 @Accessors(chain=true)
 public class Dept implements Serializable{
 
