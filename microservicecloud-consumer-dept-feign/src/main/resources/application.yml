@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: microservicecloud-consumer
+#####feign hystrix 整合  默认不开启
+feign: 
+  hystrix: 
+    enabled: true
 eureka:
   #instance:
     #hostname: localhost

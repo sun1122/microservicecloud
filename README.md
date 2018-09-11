@@ -10,7 +10,7 @@ springcloud+springboot+mybatis+mysql微服务学习（Restful风格）
       microservicecloud-provider-dept-8001 部门服务提供者
       microservicecloud-provider-dept-8002 部门服务提供者
       microservicecloud-provider-dept-8003 部门服务提供者
-      microservicecloud-provider-dept-hystrix-8003 Hystrix部门服务提供者
+      microservicecloud-provider-dept-hystrix-8001 Hystrix部门服务提供者
       microservicecloud-consumer-dept-80 部门微服务消费者
       microservicecloud-consumer-dept-feign-80 Feign部门微服务消费者
       
