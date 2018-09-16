@@ -14,6 +14,7 @@
 			<version>${project.version}</version>
 		</dependency>
 
+
 		<!-- actuator监控信息完善 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
