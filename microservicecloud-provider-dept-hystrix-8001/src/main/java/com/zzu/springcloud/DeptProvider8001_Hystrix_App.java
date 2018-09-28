@@ -9,9 +9,11 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient // 本服务启动后会自动注册进eureka服务中
 @EnableDiscoveryClient // 服务发现
-@EnableCircuitBreaker // 对hystrixR熔断机制的支持
+@EnableCircuitBreaker // 对hystrix熔断机制的支持
 public class DeptProvider8001_Hystrix_App {
 	/**
+	 * 10秒内20次请求
+	 * 
 	 * 50%
 	 * This property sets the error percentage at or above which the circuit
 	 * should trip open and start short-circuiting requests to fallback logic.
